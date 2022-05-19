@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/CodeCrib/static/css/main.0166f21e.css",
+    "main.js": "/CodeCrib/static/js/main.bb30f8ac.js",
+    "static/js/787.b17ce73d.chunk.js": "/CodeCrib/static/js/787.b17ce73d.chunk.js",
+    "index.html": "/CodeCrib/index.html",
+    "static/media/plus.svg": "/CodeCrib/static/media/plus.4827eb6b3d50b281c3be.svg",
+    "static/media/line.svg": "/CodeCrib/static/media/line.747a41c6487ed08d0a1b.svg",
+    "main.0166f21e.css.map": "/CodeCrib/static/css/main.0166f21e.css.map",
+    "main.bb30f8ac.js.map": "/CodeCrib/static/js/main.bb30f8ac.js.map",
+    "787.b17ce73d.chunk.js.map": "/CodeCrib/static/js/787.b17ce73d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0166f21e.css",
+    "static/js/main.bb30f8ac.js"
+  ]
+}
