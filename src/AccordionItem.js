@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import {AccordionContext} from './AccordionWrapper';
-
-const AccordionItem = (props) => {
+import img from './assets/img/img.png'
+const AccordionItem = ({description,index,title,img}) => {
 
     let indexPlus;
 
@@ -21,21 +21,23 @@ const AccordionItem = (props) => {
         <div className="accordion-item">
             <h3 className="accordion-title">
                 <button
-                    onClick={(e) => eventHandler(e, props.index)}
-                    className={ active === props.index ? 'active' : 'inactive'}
-                    aria-expanded={ active === props.index ? 'true' : 'false' }
-                    aria-controls={ 'sect-' + indexCount(props.index) }
+                    onClick={(e) => eventHandler(e, index)}
+                    className={ active === index ? 'active' : 'inactive'}
+                    aria-expanded={ active === index ? 'true' : 'false' }
+                    aria-controls={ 'sect-' + indexCount(index) }
                 >
-                    <span className="title-wrapper">{props.title}
+                    <span className="title-wrapper">{title}
                     </span>
                     <span className="icon-wrapper">
-                        <span className={ active === props.index ? 'minus' : 'plus'}></span>
+                        <span className={ active === index ? 'minus' : 'plus'}></span>
                     </span>
                 </button>
             </h3>
             <div className="accordion-panel">
-                <div id={ 'sect-' + indexCount(props.index) } className={ active === props.index  ? 'panel-open' : 'panel-close' }>
-                    {props.description}
+                <div id={ 'sect-' + indexCount(index) } className={ active === index  ? 'panel-open' : 'panel-close' }>
+                    {description}
+
+
                 </div>
             </div>
         </div>
