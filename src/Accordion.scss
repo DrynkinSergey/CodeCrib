@@ -20,13 +20,14 @@
 }
 
 .accordion-wrapper .accordion-item h3.accordion-title button.active {
-  background-color: #dfbd85;
+  background-color: #1e74f6;
   color: #ffffff;
   border: #dfbd85 solid 1px;
 }
 
 .accordion-wrapper .accordion-item h3.accordion-title button:hover {
-  background-color: #dfbd85;
+  cursor:pointer;
+  background-color: #000386;
 }
 
 .accordion-wrapper .accordion-item h3.accordion-title button span.title-wrapper {
